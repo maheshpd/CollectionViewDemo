@@ -13,6 +13,8 @@
 		B561C40F235F6B510057DBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B561C40D235F6B510057DBA0 /* Main.storyboard */; };
 		B561C411235F6B530057DBA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B561C410235F6B530057DBA0 /* Assets.xcassets */; };
 		B561C414235F6B530057DBA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B561C412235F6B530057DBA0 /* LaunchScreen.storyboard */; };
+		B561C41D235F6CE40057DBA0 /* CollectionViewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561C41B235F6CE40057DBA0 /* CollectionViewItemCell.swift */; };
+		B561C41E235F6CE40057DBA0 /* CollectionViewItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B561C41C235F6CE40057DBA0 /* CollectionViewItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B561C410235F6B530057DBA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B561C413235F6B530057DBA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B561C415235F6B530057DBA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B561C41B235F6CE40057DBA0 /* CollectionViewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItemCell.swift; sourceTree = "<group>"; };
+		B561C41C235F6CE40057DBA0 /* CollectionViewItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B561C410235F6B530057DBA0 /* Assets.xcassets */,
 				B561C412235F6B530057DBA0 /* LaunchScreen.storyboard */,
 				B561C415235F6B530057DBA0 /* Info.plist */,
+				B561C41B235F6CE40057DBA0 /* CollectionViewItemCell.swift */,
+				B561C41C235F6CE40057DBA0 /* CollectionViewItemCell.xib */,
 			);
 			path = CollectionViewDemo;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B561C414235F6B530057DBA0 /* LaunchScreen.storyboard in Resources */,
+				B561C41E235F6CE40057DBA0 /* CollectionViewItemCell.xib in Resources */,
 				B561C411235F6B530057DBA0 /* Assets.xcassets in Resources */,
 				B561C40F235F6B510057DBA0 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B561C40C235F6B510057DBA0 /* ViewController.swift in Sources */,
+				B561C41D235F6CE40057DBA0 /* CollectionViewItemCell.swift in Sources */,
 				B561C408235F6B510057DBA0 /* AppDelegate.swift in Sources */,
 				B561C40A235F6B510057DBA0 /* SceneDelegate.swift in Sources */,
 			);
